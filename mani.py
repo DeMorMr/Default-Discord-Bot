@@ -58,11 +58,11 @@ async def UwU(ctx):                                                # discord.Col
   embed=discord.Embed(title='Title',description='Description', color=discord.Color.black() ) # other color: gold(this yellow), blue 
   
   embed.add_field(name="Field1", value="Desc1", inline=False) # inline=False this fixation field
-  embed.add_field(name="Field2", value="Desc2", inline=False)
-  embed.add_field(name="Field3", value="Desc3", inline=False)
+ # embed.add_field(name="Field2", value="Desc2", inline=False)
+ # embed.add_field(name="Field3", value="Desc3", inline=False)
   
-  embed.set_thumbnail(url = 'URL_IMAGE')
-  embed.set_image(url = 'URL_IMAGE')
+ # embed.set_thumbnail(url = 'URL_IMAGE')
+ # embed.set_image(url = 'URL_IMAGE')
   
   embed.set_author(name='WoOOooW')
   embed.set_footer(text=f"iM A SuPEr Man!")
