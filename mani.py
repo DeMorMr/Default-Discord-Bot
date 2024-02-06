@@ -75,6 +75,10 @@ async def FreeDiscordNitro(ctx):
    await ctx.reply('[press!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)')
 
 
+@bot.event # Event for see a errors
+async def on_command_error(ctx,error):
+  await ctx.send(f'```{error}```')
+
 # Create a token.txt witch token
 token = open('token.txt').readline()
 bot.run(token)
