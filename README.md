@@ -3,7 +3,7 @@
 <h4 align="center"> The bot was created as an example to use!💖 To make it clearer to you, I have added comments<img src='https://github.com/DeMorMr/Default-Discord-Bot/blob/main/.github/assets/icon_chat.svg' alt='icon chat'> </h4>
 <div align="center">
 
-<a href='https://www.donationalerts.com/r/lisichka1236'>![Discord](https://img.shields.io/badge/Discord_Server-3670A0.svg?style=for-the-badge&logo=discord&logoColor=white)</a>
+<a href='https://discord.gg/WMem8uqwZV'>![Discord](https://img.shields.io/badge/Discord_Server-3670A0.svg?style=for-the-badge&logo=discord&logoColor=white)</a>
 
 <a href='https://www.donationalerts.com/r/lisichka1236'>![Ruby](https://img.shields.io/badge/Support_Donat_Alerts-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)</a>
 </div>
