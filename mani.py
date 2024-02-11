@@ -92,11 +92,11 @@ upgrade = 0
 
 @bot.command()
 async def upgrade(ctx):
- if money==0:
-   await ctx.semd(f'You dont have 5 money! You balance: {money}')
- elif money==5: 
+ if money==5: 
    money=-5 # -5 money for balance
    await ctx.send(f'Upgrade to {upgrade}lvl! You balance: {money}')
+ else:
+   await ctx.semd(f'You dont have 5 money! You balance: {money}')
   
 @bot.command()
 async def work(ctx):
