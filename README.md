@@ -1,4 +1,4 @@
-<h1 align="center">A Default Discord-Bot v0.2 <image src='https://github.com/DeMorMr/Default-Discord-Bot/blob/main/.github/assets/icon_ext.svg' alt='icon exten.'> </h1>
+<h1 align="center">A Default Discord-Bot v0.3 <image src='https://github.com/DeMorMr/Default-Discord-Bot/blob/main/.github/assets/icon_ext.svg' alt='icon exten.'> </h1>
 <h4 align="center">A Default code witch need information!🤗</h4>
 <h4 align="center"> The bot was created as an example to use!💖 To make it clearer to you, I have added comments<img src='https://github.com/DeMorMr/Default-Discord-Bot/blob/main/.github/assets/icon_chat.svg' alt='icon chat'> </h4>
 <div align="center">
