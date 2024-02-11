@@ -1,6 +1,10 @@
 # Library for bot
 import discord
 from discord.ext import commands
+# Library python
+import random
+
+
 
 intents=discord.Intents.default() # You intents!
 intents.message # Bot see message
@@ -73,6 +77,32 @@ async def UwU(ctx):                                                # discord.Col
 @bot.command()
 async def FreeDiscordNitro(ctx):
    await ctx.reply('[press!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)')
+
+# A random function
+@bot.command()
+async def number(ctx): 
+  ##list = ['Its a.... ||6!||', 'Do you like |148?|','||99|| its cool, yes?']
+  # or
+  list = [f'Its a.... ||{randint(0,100)}!||',   f'Do you like ||{randint(0,100)}?||',  f'||{randint(0,100)}|| its cool, yes?']
+  await ctx.reply(random.choice(list))
+
+# a LOCAL mini-game! restart=reset
+money = 0  
+upgrade = 0 
+
+@bot.command()
+async def upgrade(ctx):
+ if money==0:
+   await ctx.semd(f'You dont have 5 money! You balance: {money}')
+ elif money==5: 
+   money=-5 # -5 money for balance
+   await ctx.send(f'Upgrade to {upgrade}lvl! You balance: {money}')
+  
+@bot.command()
+async def work(ctx):
+ money=+2
+ await ctx.send(f'You new balance {money}!')
+
 
 
 @bot.event # Event for see a errors
