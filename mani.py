@@ -7,10 +7,10 @@ import random
 
 
 intents=discord.Intents.default() # You intents!
-intents.message # Bot see message
+intents.message # Bot see messages
 intents.member # Bot see a member info
 
-Prefix='your prefix!' # Your Prefix
+Prefix='your prefix!' # Your Prefix, example: '!' '~' '//'
 
 bot = commands.Bot(command_prefix=Prefix, intents=intents) # Bot and intents
 # a remove default help👇
@@ -24,7 +24,7 @@ bot = commands.Bot(command_prefix=Prefix, intents=intents) # Bot and intents
 @bot.event # Wow, you started?
 async def on_ready():
     print(f'{bot.user.name} started') #duscird.Status. idle,online,offline                                         discord.ActivityType. [playing, watching] The rest is in the documentary
-    await bot.change_presence(status = discord.Status.idle, activity = discord.Activity(name = f'RickRoll', type = discord.ActivityType.watching)) #Общее количество участников, за которыми следит бот (Находятся на серверах)
+    await bot.change_presence(status = discord.Status.idle, activity = discord.Activity(name = f'RickRoll', type = discord.ActivityType.watching)) 
 
 
 # A ctx. function
@@ -50,7 +50,7 @@ async def MentionMe(ctx):
 async def CreateAndGiveMeRole(ctx, text): 
     role = await guild.create_role(name=f"{text}") # create
     await ctx.author.add_roles(role) # give
-
+ 
 @bot.command()
 async def joke(ctx,text):
   await ctx.message.delete() # delete author message
@@ -72,6 +72,8 @@ async def UwU(ctx):                                                # discord.Col
   embed.set_footer(text=f"iM A SuPEr Man!")
   
   await message.channel.send(embed=embed)
+  # or reply
+  # await message.channel.reply(embed=embed)
 
 # Hyperlink
 @bot.command()
@@ -103,11 +105,9 @@ async def work(ctx):
  money=+2
  await ctx.send(f'You new balance {money}!')
 
-
-
 @bot.event # Event for see a errors
 async def on_command_error(ctx,error):
-  await ctx.send(f'```{error}```')
+  await ctx.send(f'```{error}```') # I didn't write `;` ? Uh..
 
 # Create a token.txt witch token
 token = open('token.txt').readline()
