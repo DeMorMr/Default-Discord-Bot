@@ -20,7 +20,7 @@
   
 <a href='https://www.python.org/ftp/python/3.6.0/python-3.6.0-amd64-webinstall.exe'>![Python](https://img.shields.io/badge/python_download_3.6-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)</a>
 
-<a href='[https://www.python.org/ftp/python/3.6.0/python-3.6.0-amd64-webinstall.exe](https://discordpy.readthedocs.io/en/stable/index.html)'>![Python](https://img.shields.io/badge/Documentation_Discord.py-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)</a>
+<a href='https://discordpy.readthedocs.io/en/stable/index.html'>![Python](https://img.shields.io/badge/Documentation_Discord.py-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)</a>
 
 </div>
 
