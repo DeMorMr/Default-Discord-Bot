@@ -7,8 +7,8 @@ import random
 
 
 intents=discord.Intents.default() # You intents!
-intents.message # Bot see messages
-intents.member # Bot see a member info
+intents.messages # Bot see messages
+intents.members # Bot see a member info
 intents.typing=True # can typing
 intents.presences=True # other
 Prefix='your prefix!' # Your Prefix, example: '!' '~' '//'
