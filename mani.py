@@ -79,7 +79,7 @@ async def UwU(ctx):                                                # discord.Col
 # Hyperlink
 @bot.command()
 async def FreeDiscordNitro(ctx):
-   await ctx.reply('[press!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)')
+   await ctx.reply('[press!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)') 
 
 # A random function
 @bot.command()
@@ -110,6 +110,6 @@ async def work(ctx):
 async def on_command_error(ctx,error):
   await ctx.send(f'```{error}```') # I didn't write `;` ? Uh..
 
-# Create a token.txt witch token
+# Create a token.txt with token
 token = open('token.txt').readline()
 bot.run(token)
