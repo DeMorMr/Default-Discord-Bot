@@ -11,6 +11,8 @@ intents.messages # Bot see messages
 intents.members # Bot see a member info
 intents.typing=True # can typing
 intents.presences=True # other
+# Or
+# intents = discord.Intents.all()
 Prefix='your prefix!' # Your Prefix, example: '!' '~' '//'
 
 bot = commands.Bot(command_prefix=Prefix, intents=intents) # Bot and intents
@@ -24,7 +26,7 @@ bot = commands.Bot(command_prefix=Prefix, intents=intents) # Bot and intents
 
 @bot.event # Wow, you started?
 async def on_ready():
-    print(f'{bot.user.name} started') #duscird.Status. idle,online,offline                                         discord.ActivityType. [playing, watching] The rest is in the documentary
+    print(f'{bot.user.name} started') #duscird.Status. idle,online,offline                                         discord.ActivityType. [playing, watching] The rest is in the docs
     await bot.change_presence(status = discord.Status.idle, activity = discord.Activity(name = f'RickRoll', type = discord.ActivityType.watching)) 
 
 
